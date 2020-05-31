@@ -21,3 +21,21 @@ if re.search('ERROR', ok) or re.search('Error', ok):
     print(ok)
     sys.exit(1)
 print(ok)
+while True:
+    sockets = [sys.stdin, client]
+    r, w, e = select.select(sockets, [], [])
+    for socket in r:
+        if socket != client:
+            message = sys.stdin.readline()
+            if message == '\n':
+                continue
+            else:
+                message_load = 'MSG ' + message
+                client.sendall(message_load.encode('ascii'))
+        else:
+            message = socket.recv(1024).decode('ascii')
+            if re.search(r'Error', message) or re.search(r'ERROR', message):
+                print(message) # error message
+            else:
+                print(message[4:])
+client.close()
