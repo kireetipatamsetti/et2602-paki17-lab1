@@ -1,3 +1,5 @@
+#!/usr/bin/python
+import select
 import sys
 import re
 import socket

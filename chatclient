@@ -1,8 +1,9 @@
-#usr/bin/python
+#!/usr/bin/python
 
 import sys
 import re
 import socket
+import select
 
 if len(sys.argv) != 3:
     print("Usage: ./chatclient <server-ip>:<server-port> <nickname>")
@@ -35,7 +36,7 @@ while True:
         else:
             message = socket.recv(1024).decode('ascii')
             if re.search(r'Error', message) or re.search(r'ERROR', message):
-                print(message) # error message
+                print(message)  # error message
             else:
                 print(message[4:])
 client.close()
