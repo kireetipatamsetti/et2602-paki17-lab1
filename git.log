@@ -1,0 +1,77 @@
+commit 54b5d90ab973815c59d417ee2b976bb531d5752e
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:29:33 2020 +0200
+
+    Make it as executables
+
+commit a56682dd55f3b3e056921c8cb2dbd5a67ba8ffe4
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:28:48 2020 +0200
+
+    Move
+
+commit b93114dfd03657b09df796a790fa994505e91134
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:27:08 2020 +0200
+
+    Add reformat
+
+commit f8dcd5d9083b780c404935b4ca70b83a5c69c56b
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:26:47 2020 +0200
+
+    Add main code
+
+commit 9ca866c94ff4f86be2c1306ad844d66b2cf9e7ec
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:24:38 2020 +0200
+
+    Add broadcating module
+
+commit 4285eb5d334e1ce703361ad648c7e929a664d483
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:23:47 2020 +0200
+
+    Add code to socket connection
+
+commit f6155d1ce2cc5ae89e3705dd32218943e67d0d1d
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:23:18 2020 +0200
+
+    Add code to handle input
+
+commit b333ccb6a285d0bb52dd524c466860cf6493a574
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:21:37 2020 +0200
+
+    Add code to handle protocol part 3
+
+commit 191299af7a22fc81954f93521609dd8bfc606077
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:20:42 2020 +0200
+
+    Move
+
+commit 6cb80a5c6a26ee39dc275458126ae184e5978330
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:19:40 2020 +0200
+
+    Add code for handling protocol part 2
+
+commit 105437d1168eecf53845176d35b59199479beedb
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:18:28 2020 +0200
+
+    Remove .idea files
+
+commit 35a0d327fb9ed65a6e8688963bf5532171f2fca2
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:17:51 2020 +0200
+
+    Add gitignore and add code for handling protocol part 1
+
+commit 191609c070023a53220a4e76f7c54cc4c06d6725
+Author: kireetipatamsetti <paki17@student.bth.se>
+Date:   Sun May 31 18:16:02 2020 +0200
+
+    Add code for handling input
